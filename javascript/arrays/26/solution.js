@@ -64,3 +64,12 @@ for (let i = 0; i < k; i++) {
 
 console.log('k =', k);
 console.log('nums após:', nums);
+
+// MY SOLUTION FOR PROBLEM
+/* remove duplicates from sorted array
+  we can use two pointers technique
+  one pointer (i) will track the position of the last unique element found
+  the second pointer (j) will iterate through the array
+  whenever we find a new unique element, we will move i forward and update the value at i
+*/
+/* COMPLEXITY: O(N) time and O(1) space */
