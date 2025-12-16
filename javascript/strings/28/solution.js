@@ -37,3 +37,6 @@ var strStr = function(haystack, needle) {
 };
 console.log(strStr("sadbutsad", "sad")); // 0
 console.log(strStr("leetcode", "leeto"));
+
+// Time Complexity: O((N-L)*L) where N is the length of haystack and L is the length of needle
+// Space Complexity: O(1)
