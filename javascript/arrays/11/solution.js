@@ -37,3 +37,6 @@ var maxArea = function(height) {
 
 console.log(maxArea([1,8,6,2,5,4,8,3,7])); // 49
 console.log(maxArea([1,1]));
+
+// Time Complexity: O(N) where N is the length of height
+// Space Complexity: O(1)
