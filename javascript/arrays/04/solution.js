@@ -15,3 +15,6 @@ var findMedianSortedArrays = function(nums1, nums2) {
 
 findMedianSortedArrays([1,3], [2]) // 2.00000
 findMedianSortedArrays([1,2], [3,4]) // 2.50000
+
+// Time Complexity: O((m + n) log(m + n)) where m and n are the lengths of nums1 and nums2 respectively, due to the sorting step.
+// Space Complexity: O(m + n) for the merged array.
